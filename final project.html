@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moe The Programmer - Portfolio</title>
+  <!-- Include FontAwesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1, p {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700; /* Change the color on hover */
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    pre {
+      font-size: 13pt;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project {
+      flex: 1;
+      padding: 15px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+      color: #333;
+    }
+
+    .project p {
+      margin-bottom: 15px;
+    }
+
+    .project a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .project a:hover {
+      color: #ffd700; /* Change the color on hover */
+    }
+
+    .socials {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center; /* Center icons horizontally */
+      gap: 10px;
+      margin-top: 20px; /* Add some margin for separation */
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: #ffd700; /* Change the color on hover */
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Adjust FontAwesome class names based on the version you are using */
+    .socials a i {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mark The Programmer</h1>
+    <p>Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#socials">Socials</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <pre>
+        <img src="Mark.jpg" alt="Moe The Programmer" width="500" height="700" align="left" style="margin-right: 20px;">
+        <div style="padding-top: 20px;">
+          <p>I am a programmer and I am aware that programming isn't for everyone. 
+            I have been Studying programming subjects like:</p>
+          <ul>
+            <li>CC2: Introduction to Computer Programming</li>
+            <li>CC3: Object Oriented Programming</li>
+            <li>CC6: Emerging Technologies</li>
+            <li>CC22: Mobile Application Design and Development</li>
+            <li>CIT14: Introduction to Web Technologies</li>
+          </ul>
+          <p>Likes: Programming [Web Development], Disco [Street dances like tutting,
+             hip-hop, anything good for the soul], carbonara, anime</p>
+          <p>Dislikes: Cat fur, getting sick, being inactive</p>
+          <p>I am Mark a web programmer</p>
+          <p>Quote: Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler</p>
+          <p>                                                                  Social Media Accounts:</p>
+          <ul class="socials">
+            <li><a href="https://www.facebook.com/mark.balangue.92" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://github.com/krammy01/CIT14-FInal-project" target="_blank"><i class="fab fa-github"></i></a></li> 
+            <li><a href="https://www.linkedin.com/in/moe-the-programmer" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/markbalangue84" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </pre>
+    </section>
+   <footer>
+    <p>PROGRAMMING_PORTFOLIO</p>
+  </footer>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Activity 1</h3>
+          <p>Bootstrap Jquery - Midterm Exam</p>
+          <a href="https://github.com/moe-the-programmer/activity-1" target="_blank">Visit Project</a>
+        </div>
+
+        <div class="project">
+          <h3>Activity 2</h3>
+          <p>Bootstrap Jquery - Progress Bars</p>
+          <a href="https://github.com/moe-the-programmer/activity-2" target="_blank">Visit Project</a>
+        </div>
+
+        <div class="project">
+          <h3>Activity 3</h3>
+          <p>Bootstrap Jquery - Registration with buttons and event handlers</p>
+          <a href="https://github.com/moe-the-programmer/activity-3" target="_blank">Visit Project</a>
+        </div>
+
+        <div class="project">
+          <h3>Activity 4-Table Rows and Columns</h3>
+          <p>Form</p>
+          <a href="https://github.com/moe-the-programmer/activity-4" target="_blank">Visit Project</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023 </p>
+  </footer>
+</body>
+</html>
